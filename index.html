@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <div class="top">
+    <h1>Kim Shirin Cupal</h1>
+    <hr>
+
+  </div>
+
+  <div class="navbar">
+    <p>
+      <a href="#about-me">About me</a>
+      &nbsp&nbsp&nbsp
+      <a href="#my-work">My work</a>
+      &nbsp&nbsp&nbsp
+      <a href="#contact-me">Contact me</a>
+    </p>
+  </div>
+
+  <div id="about-me" class="second">
+    <div class="second-left">
+      <h2 class="h2-second">About <br> me</h2>
+
+    </div>
+    <div class="second-right">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br><br>
+        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
+        <br><br>
+        Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
+        varius cursus nisl, vel commodo massa dignissim et.
+        <br><br>
+        Donec fringilla mattis finibus. Ut tempor ut quam sed tempor. Nullam mattis ipsum ligula, a dictum purus eleifend a. Nullam a tortor mi. Etiam euismod, diam sed accumsan fermentum, arcu
+        justo aliquam tellus, eu vehicula ex ligula quis purus.
+    </div>
+  </div>
+
+  <div class="third">
+    <div id="my-work" class="second-left">
+      <h2 class="h2-second">My <br> work</h2>
+
+    </div>
+    <div class="second-right">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br><br>
+        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
+        <br><br>
+        Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
+        varius cursus nisl, vel commodo massa dignissim et.
+        <br><br>
+        Donec fringilla mattis finibus. Ut tempor ut quam sed tempor. Nullam mattis ipsum ligula, a dictum purus eleifend a. Nullam a tortor mi. Etiam euismod, diam sed accumsan fermentum, arcu
+        justo aliquam tellus, eu vehicula ex ligula quis purus.
+
+    </div>
+  </div>
+
+  <div class="second">
+    <div id="contact-me" class="second-left">
+      <h2 class="h2-second">Contact <br> me</h2>
+
+    </div>
+    <div class="second-right">
+
+      Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
+      varius cursus nisl, vel commodo massa dignissim et.
+      <br><br>
+        Cell: +43 699 11088087
+          <br>
+        E-mail: kim@cupal.com
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>(c) Kim Shirin Cupal</p>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        $('h1').css("opacity", 1 - $(window).scrollTop() / 300);
+        $('hr').css("opacity", 1 - $(window).scrollTop() / 300);
+
+        // $('h1').css("font-size", 80 - $(window).scrollTop() / 100)
+      })
+    })
+  </script>
+
+</body>
+
+</html>

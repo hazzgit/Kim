@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.top {
+  font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+  margin: 0;
+  text-align: center;
+  background-image: url("bg.jpg");
+  /* background-color: black; */
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 200;
+  padding-top: 13%;
+  margin-bottom: 0;
+  color: white;
+}
+
+.top hr {
+  width: 420px;
+  margin-top: 1.5%;
+  margin-bottom: 15%;
+  border: 1px solid white;
+}
+
+.navbar {
+  /* width: 75%; */
+  text-align: left;
+  padding: 1.5% 27%;
+  margin-bottom: 3%;
+  /* background-color:rgba(0, 0, 0, 0.25); */
+background-color: white;
+  position: sticky;
+  top: 0;
+  /* width: 75%; */
+  border: 1px solid lightgrey;
+
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.navbar p {
+  margin: 0;
+
+}
+
+#about-me {
+  padding-top: 75px;
+   margin-top: -75px;
+}
+
+#my-work {
+  padding-top: 150px;
+   margin-top: -150px;
+}
+
+#contact-me {
+  padding-top: 75px;
+   margin-top: -75px;
+}
+
+.second {
+  overflow: auto;
+  padding: 3% 0;
+  background-color: white;
+}
+
+.third {
+  overflow: auto;
+  padding: 3% 0;
+  background-color: #f6f6f6;
+}
+
+.h2-second {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 0;
+  line-height: 1.9rem;
+}
+
+.second-left {
+  float: left;
+  /* background-image: url(pattern.png); */
+  width: 25%;
+  text-align: right;
+  margin-bottom: 10%;
+}
+
+.second-right {
+  float: right;
+  width: 40%;
+  padding-right: 33%;
+  text-align: left;
+}
+
+.footer {
+text-align: center;
+background-image: url("bg.jpg");
+color: white;
+padding: 0.5%;
+}
