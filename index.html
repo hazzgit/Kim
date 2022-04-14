@@ -3,26 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Kim Shirin Cupal</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
 <body>
 
-
+  <!-- <div class="navbar">
+    <p>
+      <a href="#about-me">about me</a>
+      &nbsp&nbsp&nbsp
+      <a href="#my-work">my work</a>
+      &nbsp&nbsp&nbsp
+      <a href="#contact-me">contact me</a>
+    </p>
+  </div> -->
 
   <div class="top">
+
     <h1>Kim Shirin Cupal</h1>
     <hr>
 
   </div>
 
-  <div class="navbar">
+  <div class="navbar" id="navbar">
     <p>
       <a href="#about-me">About me</a>
       &nbsp&nbsp&nbsp
@@ -32,42 +42,169 @@
     </p>
   </div>
 
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-70px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+
+  </div>
+
   <div id="about-me" class="second">
     <div class="second-left">
-      <h2 class="h2-second">About <br> me</h2>
+
+      <h2 class="h2-second">about <br> me</h2>
 
     </div>
     <div class="second-right">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <br><br>
-        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
-        <br><br>
-        Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
+      <img class="kim" src="kim.jpg" alt="">
+      Lorem ipsum sit <strong>Kim Shirin Cupal</strong> dolor sit amet, consectetur adipiscing elit.
+      <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
+      </p>
+      <p>Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
         varius cursus nisl, vel commodo massa dignissim et.
-        <br><br>
-        Donec fringilla mattis finibus. Ut tempor ut quam sed tempor. Nullam mattis ipsum ligula, a dictum purus eleifend a. Nullam a tortor mi. Etiam euismod, diam sed accumsan fermentum, arcu
+      </p>
+      <p>Donec fringilla mattis finibus. Ut tempor ut quam sed tempor. Nullam mattis ipsum ligula, a dictum purus eleifend a. Nullam a tortor mi. Etiam euismod, diam sed accumsan fermentum, arcu
         justo aliquam tellus, eu vehicula ex ligula quis purus.
+      </p>
     </div>
   </div>
 
   <div class="third">
-    <div id="my-work" class="second-left">
-      <h2 class="h2-second">My <br> work</h2>
+
+    <div class="second-left">
+      <div id="my-work"></div>
+      <h2 class="h2-second">my <br> work</h2>
+      <div class="arrow">
+        <p>click for<br>more details</p>
+        <img class="arrow-img" src="arrow.png" alt="">
+      </div>
 
     </div>
     <div class="second-right">
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <br><br>
+      Lorem elit eu amet, consectetur adipiscing elit.
+      <p>
         Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
+      </p>
+
+      <p class="redaction" id="rk">Ö1 // Radiokolleg</h3>
+      </p>
+
+      <p>Das „Radiokolleg“ verbindet Expert:innenwissen mit Alltagserfahrung und Hintergrundinformation mit Reflexion. Breitgefächert, vertiefend und orientierend.
+      </p>
+      <div class="show-tiles">
+
+
+        <a href="#rk">
+          <div id="1" class="show1 show"></div>
+        </a>
+        <div id="2" class="show2 show"></div>
+        <div id="3" class="show3 show"></div>
+        <div id="4" class="show4 show"></div>
+        <div id="5" class="show5 show"></div>
+        <div id="6" class="show6 show"></div>
+        <div id="7" class="show7 show"></div>
+        <div id="8" class="show8 show"></div>
+        <div id="9" class="show9 show"></div>
+      </div>
+
+      <div class="text1 text text-hidden">
+<br>
+       <u>Analog</u>
+<br>
+        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+        viverra libero.
         <br><br>
-        Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
-        varius cursus nisl, vel commodo massa dignissim et.
+        <audio controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+
+      </div>
+
+
+      <div class="text2 text text-hidden">
+<br>
+      <u>Es brennt</u>
+<br>
+        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+        viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis
+        nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit
+        eu, venenatis
+        nibh.
         <br><br>
-        Donec fringilla mattis finibus. Ut tempor ut quam sed tempor. Nullam mattis ipsum ligula, a dictum purus eleifend a. Nullam a tortor mi. Etiam euismod, diam sed accumsan fermentum, arcu
-        justo aliquam tellus, eu vehicula ex ligula quis purus.
+        <audio controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+
+      </div>
+
+      <div class="text3 text text-hidden"> <u>Evolution of beauty</u> <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+      <div class="text4 text text-hidden">Show 4 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+      <div class="text5 text text-hidden">Show 5 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+
+      <p class="redaction">Ö1 // Vom Leben der Natur</p>
+
+      <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
+      </p>
+
+      <div class="show-tiles">
+        <div id="20" class="show20 show">20</div>
+        <div id="21" class="show21 show">21</div>
+
+      </div>
+
+      <div class="text20 text text-hidden">Show 20 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+      <div class="text21 text text-hidden">
+        Show 21
+
+        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis,
+        fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh.
+
+        <audio controls controlsList="noplaybackrate nodownload">
+          <source src="https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <p class="redaction">Flussreporter</p>
+      Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Vestibulum eget fermentum diam. Nunc nunc erat, porttitor vel tellus quis, commodo cursus neque.
 
     </div>
+  </div>
+
+
+  <script type="text/javascript">
+    $(".show").click(function() {
+      var showNumber = this.id;
+
+      // PAUSE AUDIO! $("audio").pause();
+
+      $(".arrow").css("opacity", "0");
+      $(".show").text("");
+      $(".show").removeClass("show-clicked");
+      // $(".show").removeClass("show-play");
+      $(".text-hidden").removeClass("text-shown");
+
+      $(".show" + showNumber).addClass("show-clicked");
+      $(".text" + showNumber).addClass("text-shown");
+
+      //  $(".show", this).addBack(this).toggleClass("show-play");
+
+      // $(".show").click(function() {
+      //   $(".text" + showNumber).toggleClass("text-shown");
+      // });
+    });
+  </script>
+
+
+  </div>
   </div>
 
   <div class="second">
@@ -80,9 +217,9 @@
       Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
       varius cursus nisl, vel commodo massa dignissim et.
       <br><br>
-        Cell: +43 699 11088087
-          <br>
-        E-mail: kim@cupal.com
+      Cell: +43 699 11088087
+      <br>
+      E-mail: kimcupal@gmail.com
     </div>
   </div>
 
@@ -91,8 +228,6 @@
 
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-  </script>
 
   <script>
     $(document).ready(function() {
