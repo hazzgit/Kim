@@ -203,7 +203,7 @@ audio {
   audio {
     height: revert;
     width: revert;
-    border-radius: 25px;
+    border-style: revert;
     margin-left: 0;
   }
 }
