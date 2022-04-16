@@ -34,11 +34,9 @@
 
   <div class="navbar" id="navbar">
     <p>
-      <a href="#about-me">About me</a>
-      &nbsp&nbsp&nbsp
-      <a href="#my-work">My work</a>
-      &nbsp&nbsp&nbsp
-      <a href="#contact-me">Contact me</a>
+      <a href="#about-me"><span class="nav-btn">about me</span></a>
+      <a href="#my-work"><span class="nav-btn">my work</span></a>
+      <a href="#contact-me"><span class="nav-btn">contact me</span></a>
     </p>
   </div>
 
@@ -49,7 +47,7 @@
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-70px";
+        document.getElementById("navbar").style.top = "-100px";
       }
       prevScrollpos = currentScrollPos;
     }
@@ -61,7 +59,7 @@
   <div id="about-me" class="second">
     <div class="second-left">
 
-      <h2 class="h2-second">about <br> me</h2>
+      <h2 class="h2-second">about me</h2>
 
     </div>
     <div class="second-right">
@@ -82,11 +80,8 @@
 
     <div class="second-left">
       <div id="my-work"></div>
-      <h2 class="h2-second">my <br> work</h2>
-      <div class="arrow">
-        <p>click for<br>more details</p>
-        <img class="arrow-img" src="arrow.png" alt="">
-      </div>
+      <h2 class="h2-second">my work</h2>
+
 
     </div>
     <div class="second-right">
@@ -106,24 +101,43 @@
         <a href="#rk">
           <div id="1" class="show1 show"></div>
         </a>
-        <div id="2" class="show2 show"></div>
-        <div id="3" class="show3 show"></div>
-        <div id="4" class="show4 show"></div>
-        <div id="5" class="show5 show"></div>
-        <div id="6" class="show6 show"></div>
-        <div id="7" class="show7 show"></div>
-        <div id="8" class="show8 show"></div>
-        <div id="9" class="show9 show"></div>
+        <a href="#rk">
+          <div id="2" class="show2 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="3" class="show3 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="4" class="show4 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="5" class="show5 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="6" class="show6 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="7" class="show7 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="8" class="show8 show"></div>
+        </a>
+        <a href="#rk">
+          <div id="9" class="show9 show"></div>
+        </a>
+
+        <div class="arrow">
+          <p>click for more details</p>
+          <img class="arrow-img" src="arrow.png" alt="">
+        </div>
+
       </div>
 
       <div class="text1 text text-hidden">
-<br>
-       <u>Analog</u>
-<br>
-        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
-        viverra libero.
-        <br><br>
-        <audio controls controlsList="noplaybackrate nodownload">
+        <span class="show-title">Analog</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
           <source src="test.mp3" type="audio/mpeg">
         </audio>
 
@@ -131,24 +145,76 @@
 
 
       <div class="text2 text text-hidden">
-<br>
-      <u>Es brennt</u>
-<br>
-        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
-        viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis
-        nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit
-        eu, venenatis
-        nibh.
-        <br><br>
-        <audio controls controlsList="noplaybackrate nodownload">
+        <span class="show-title">Es brennt</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
           <source src="test.mp3" type="audio/mpeg">
         </audio>
-
       </div>
 
-      <div class="text3 text text-hidden"> <u>Evolution of beauty</u> <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
-      <div class="text4 text text-hidden">Show 4 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
-      <div class="text5 text text-hidden">Show 5 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+      <div class="text3 text text-hidden">
+        <span class="show-title">Ducks</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text4 text text-hidden">
+        <span class="show-title">Show 4</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text5 text text-hidden">
+        <span class="show-title">Show 5</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text6 text text-hidden">
+        <span class="show-title">Show 6</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text7 text text-hidden">
+        <span class="show-title">Show 7</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text8 text text-hidden">
+        <span class="show-title">Show 8</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="text9 text text-hidden">
+        <span class="show-title">Show 9</span>
+        <p>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero. Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a
+          viverra libero.</p>
+        <audio class="audio" controls controlsList="noplaybackrate nodownload">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
 
       <p class="redaction">Ö1 // Vom Leben der Natur</p>
 
@@ -161,13 +227,23 @@
 
       </div>
 
-      <div class="text20 text text-hidden">Show 20 <br>Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.</div>
+      <div class="text20 text text-hidden">
+        <span class="show-title">Show 20</span>
+        <p>
+          Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis,
+          fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh.
+        </p>
+        <audio controls controlsList="noplaybackrate nodownload">
+          <source src="https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
       <div class="text21 text text-hidden">
-        Show 21
-
-        Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis,
-        fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh.
-
+        <span class="show-title">Show 21</span>
+        <p>
+          Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis,
+          fringilla elit eu, venenatis nibh. Proin a viverra libero.Mauris et dolor sagittis, fringilla elit eu, venenatis nibh.
+        </p>
         <audio controls controlsList="noplaybackrate nodownload">
           <source src="https://www.coothead.co.uk/audio/You-Cant-Always-Get-What-You-Want.mp3" type="audio/mpeg">
         </audio>
@@ -184,8 +260,6 @@
     $(".show").click(function() {
       var showNumber = this.id;
 
-      // PAUSE AUDIO! $("audio").pause();
-
       $(".arrow").css("opacity", "0");
       $(".show").text("");
       $(".show").removeClass("show-clicked");
@@ -194,6 +268,14 @@
 
       $(".show" + showNumber).addClass("show-clicked");
       $(".text" + showNumber).addClass("text-shown");
+
+      // var playedAudio = document.getElementById("audio1");
+      // var playedAudio = $(".audio");
+      // $(".audio").pause();
+      // playedAudio.pause();
+      for (var i = 0; i < document.getElementsByClassName('audio').length; i++) {
+        document.getElementsByClassName('audio')[i].pause();
+      }
 
       //  $(".show", this).addBack(this).toggleClass("show-play");
 
@@ -204,22 +286,19 @@
   </script>
 
 
-  </div>
-  </div>
-
   <div class="second">
     <div id="contact-me" class="second-left">
-      <h2 class="h2-second">Contact <br> me</h2>
+      <h2 class="h2-second">contact me</h2>
 
     </div>
     <div class="second-right">
 
       Aenean sit amet lectus in nunc egestas blandit nec dictum tortor. Proin posuere luctus magna. Suspendisse ornare massa sed orci maximus malesuada. Cras vel diam non nisl dapibus molestie. Mauris egestas vestibulum nunc sed vehicula. Proin
       varius cursus nisl, vel commodo massa dignissim et.
-      <br><br>
-      Cell: +43 699 11088087
-      <br>
-      E-mail: kimcupal@gmail.com
+
+      <p>Cell: +43 699 11088087</p>
+
+      <p>E-mail: kimcupal@gmail.com</p>
     </div>
   </div>
 
