@@ -256,10 +256,6 @@ dialog:not(:target):not([open]) {
   }
 } */
 
-/* .show-text {
-  margin: 0 0 0 10px;
-} */
-
 .show-img {
   float: left;
   width: 50px;
