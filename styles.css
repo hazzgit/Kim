@@ -176,9 +176,13 @@ background-color: white;
   }
 }
 
+.kim-full {
+  max-width: 90%;
+  max-height: 80%;
+}
+
 dialog {
   display: block;
-  margin-top: 50px;
   text-align: center;
   background: rgba(0, 0, 0, 0.9);
   border: none;
@@ -186,9 +190,10 @@ dialog {
   position:fixed;
     width:100%;
     height:100%;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     z-index:1000;
+    color: white;
 }
 
 dialog:not(:target):not([open]) {
