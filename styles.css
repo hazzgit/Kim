@@ -45,15 +45,26 @@ h1 {
 .top hr {
   width: 420px;
   margin-top: 1.5%;
-  margin-bottom: 15%;
+  margin-bottom: 11%;
   border: 1px solid white;
+}
+
+.scroll-div {
+  /* height: 40px; */
+  opacity: 0.3;
+  padding: 15px;
+
+}
+
+.scroll {
+  height: 40px;
 }
 
 .navbar {
   /* width: 75%; */
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  padding: 20px 0 20px 365px;
+  padding: 22px   0 22px 365px;
   /* margin-bottom: 3%; */
   /* background-color:rgba(0, 0, 0, 0.25); */
   background-color: white;
@@ -63,7 +74,6 @@ h1 {
   border-bottom: 1px solid lightgrey;
   z-index: 1;
   transition: top 0.7s;
-  font-size: 1.2rem;
 }
 
 @media (max-width: 1000px) {
@@ -87,9 +97,9 @@ h1 {
   padding-right: 25px;
 }
 
-/* #about-me {
-  padding-top: 75px;
-  margin-top: -75px;
+ #about-me {
+  padding-top: 100px;
+  margin-top: -70px;
 }
 
 #my-work {
@@ -100,7 +110,8 @@ h1 {
 #contact-me {
   padding-top: 75px;
   margin-top: -75px;
-} */
+}
+
 .second {
   overflow: auto;
   padding: 3% 0;
@@ -192,6 +203,7 @@ dialog {
   left: 0;
   z-index: 10;
   color: white;
+  font-weight: bold;
 }
 
 dialog:not(:target):not([open]) {

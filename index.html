@@ -15,28 +15,22 @@
 
 <body>
 
-  <!-- <div class="navbar">
-    <p>
-      <a href="#about-me">about me</a>
-      &nbsp&nbsp&nbsp
-      <a href="#my-work">my work</a>
-      &nbsp&nbsp&nbsp
-      <a href="#contact-me">contact me</a>
-    </p>
-  </div> -->
 
   <div class="top">
 
     <h1>Kim Shirin Cupal</h1>
     <hr>
+<div class="scroll-div">
+    <a href="#about-me"><img class="scroll" src="scroll.gif" alt=""></a>
+    </div>
 
   </div>
 
   <div class="navbar" id="navbar">
     <p>
-      <a href="#about-me"><span class="nav-btn">about me</span></a>
-      <a href="#my-work"><span class="nav-btn">my work</span></a>
-      <a href="#contact-me"><span class="nav-btn">contact me</span></a>
+      <a href="#about-me"><span class="nav-btn">ABOUT ME</span></a>
+      <a href="#my-work"><span class="nav-btn">MY WORK</span></a>
+      <a href="#contact-me"><span class="nav-btn">CONTACT ME</span></a>
     </p>
   </div>
 
@@ -59,7 +53,7 @@
       <a href="#!">
         <dialog id="dialog">
           <img class="kim-full" src="kim_full.jpg" alt="">
-          <p>x Close</p>
+      <p>╳</p>
         </dialog>
       </a>
 
@@ -264,7 +258,7 @@
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-100px";
+        document.getElementById("navbar").style.top = "-200px";
       }
       prevScrollpos = currentScrollPos;
     }
@@ -305,6 +299,7 @@
       $(window).scroll(function() {
         $('h1').css("opacity", 1 - $(window).scrollTop() / 300);
         $('hr').css("opacity", 1 - $(window).scrollTop() / 300);
+
 
         // $('h1').css("font-size", 80 - $(window).scrollTop() / 100)
       })
