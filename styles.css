@@ -10,7 +10,7 @@ body {
 
 @media (max-width: 1000px) {
   body {
-    font-size: 28px;
+    font-size: 33px;
   }
 }
 
@@ -326,6 +326,8 @@ audio {
     width: 120%;
     height: 150px;
     margin-left: -11%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     overflow-x: scroll;
   }
 }
@@ -508,7 +510,7 @@ z-index: 3;
   height: 0;
   margin-left: 20px;
   margin-right: 20px;
-  transition: all 0.3s ease-out;
+  /* transition: all 0.3s ease-out; */
 }
 
 @media (max-width: 1000px) {
@@ -524,7 +526,7 @@ z-index: 3;
   font-size: revert;
   opacity: 1;
   height: auto;
-  transition: all 0.5s ease-out;
+  transition: .6s ease;
   margin-top: 20px;
   margin-bottom: 30px;
   /* visibility: visible; */
@@ -550,16 +552,33 @@ z-index: 3;
   margin: 10px 20px 10px 0;
   font-weight: 500;
   transition: all 0.3s ease-out;
+}
 
+@media (max-width: 1000px) {
+  .btn {
+    font-size: 33px;
+    width: 45%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+  }
 }
 
 
 .btn:hover {
-  background: grey;
+  background: black;
   color: #ebebeb;
   text-decoration: none;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
   cursor: pointer;
+}
+
+.link-regular {
+  text-decoration: underline;
+  color: black;
+}
+
+.articles {
+  margin-left: 20px;
 }
 
 .footer {
