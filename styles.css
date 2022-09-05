@@ -276,6 +276,7 @@ dialog:not(:target):not([open]) {
 .redaction {
   font-weight: bold;
   padding-top: 15px;
+  font-size: 19px;
 }
 
 audio {
@@ -541,6 +542,10 @@ z-index: 3;
   margin-top: 20px;
   margin-bottom: 30px;
   /* visibility: visible; */
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .buttons {
