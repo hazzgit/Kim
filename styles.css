@@ -213,7 +213,9 @@ h1 {
 
 @media (max-width: 1000px) {
   .kim {
-    width: 270px;
+    width: 40%;
+    margin-right: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -338,7 +340,7 @@ audio {
 @media (max-width: 1000px) {
   .show-tiles {
     width: 120%;
-    height: 180px;
+    height: 185px;
     margin-left: -11%;
     margin-top: 2%;
     margin-bottom: 3%;
@@ -366,11 +368,11 @@ audio {
 
 @media (max-width: 1000px) {
   .show-tiles-gradient {
-margin-left: 84.5%;
+margin-left: 82%;
 /* width: 20%; */
 height: 180px;
 position: absolute;
-width: 27px;
+width: 50px;
 background: linear-gradient(to right, rgba(245, 245, 245, 0), #f5f5f5);
 z-index: 3;
 
@@ -410,6 +412,7 @@ z-index: 3;
   .show {
     min-height: 150px;
     min-width: 150px;
+    margin: 10px;
   }
 }
 
